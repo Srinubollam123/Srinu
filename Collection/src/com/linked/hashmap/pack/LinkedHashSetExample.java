@@ -19,6 +19,8 @@ package com.linked.hashmap.pack;
 			set.add("C");
 			set.add("D");
 			set.add("E");
+			set.add("F");
+			set.add("F");
 			
 			System.out.println("LinkedHashSet elements:"+set);
 			
