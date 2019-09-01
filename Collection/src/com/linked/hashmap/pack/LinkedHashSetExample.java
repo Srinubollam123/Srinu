@@ -1,7 +1,6 @@
 package com.linked.hashmap.pack;
 
 
-	
 	import java.util.LinkedHashSet;
 	import java.util.Set;
 
@@ -11,8 +10,13 @@ package com.linked.hashmap.pack;
 	 */
 	public class LinkedHashSetExample {
 		public static void main(String[] args) {
+			public static final Logger logger=Logger.getLogger("Lin");
 			Set<String> set=new LinkedHashSet<>();
 			
+			if(10>2)
+			{
+				System.out.println("ok");
+			}
 			/*Adding elements into the LinkedHashSet*/
 			set.add("A");
 			set.add("B");
